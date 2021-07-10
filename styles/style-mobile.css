@@ -1,0 +1,39 @@
+/* For Mobile and small Screens */
+@media (max-width: 700px)
+{
+/*
+    Adjusting dimensions of outer Layout
+*/
+    .main 
+    {
+        width: 360px;
+        height: 760px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .half1 { flex: 1 }
+    
+    .half2 
+    {
+        flex: 2; 
+        flex-direction: column;
+    }
+
+    .subscription { flex: 1; }
+
+    .why_us { flex: 1 }
+
+/*
+    Adjusting dimensions of inner layout
+*/
+    section { padding: 30px }
+
+    .offer h2, .offer h3 { margin-bottom: 18px }
+
+    .subscription h3 { margin-bottom: 10px }
+
+    .subscription button { width: 95% }
+
+    .why_us h3 { margin-bottom: 24px }
+}
