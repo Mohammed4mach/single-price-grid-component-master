@@ -80,7 +80,7 @@ section { padding: 35px;}
 
 .subscription h3 { color: white; }
 
-.subscription > p:first-of-type { color: rgba(255, 255, 255, 0.5) }
+.subscription > p:first-of-type { color: rgba(255, 255, 255, 0.5); display: flex; align-items: center; }
 
 .subscription .price
 {
@@ -97,6 +97,7 @@ section { padding: 35px;}
     color: white;
     padding: 17px;
     font-weight: 700;
+    font-family: 'Karla', sans-serif; 
     border: none;
     border-radius: 5px;
     background-color: var(--Bright_Yellow);
